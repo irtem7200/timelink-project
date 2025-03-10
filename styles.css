@@ -1,0 +1,405 @@
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 1000px;
+}
+.head img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.head-btn{
+    background-color: #000000;
+}
+
+.mainDiv {
+    height: 90%;
+
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.page-info {
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
+.page-info a {
+    color: #FF9800;
+}
+
+.head i {
+    color: black;
+    font-size: 20px;
+}
+
+
+.head a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #FF9800;
+    border-radius: 50%;
+    color: black;
+}
+
+.buton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+
+
+.profile {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #003472;
+}
+
+.record {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FF9800;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    color: #FF9800;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+.age.active {
+    background-color: green;
+}
+
+
+nav button:hover {
+    background-color: #FF9800;
+    transition: 0.5s;
+
+}
+
+.buttons button {
+    padding: 10px 15px;
+    border: solid 2px black;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    width: 150px;
+    color: black;
+}
+
+
+
+/*  ARROW CSS */
+
+
+.age-btn:hover {
+    background-color: #FF6F61;
+    transition: 0, 8s;
+}
+
+.age-btn {
+    height: 50px;
+    width: 50px;
+    border: solid 2px black;
+    border-right: none;
+    padding: 5px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.age-block {
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainArrow {
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.age-note-wrapper {
+    width: 0;
+    transition: all 1s;
+    background-color: #FF6F61;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+
+
+.age-note {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    background-color: #FF6F61;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.age-note:hover{
+    background-color: red;
+}
+
+.age-note.focus {
+    background-color: olive;
+}
+
+.age-note.active {
+    background-color: #77dd77;
+
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid #FF9800;
+
+}
+
+
+.age-btn.active {
+    background-color: #77dd77 ;
+}
+
+.age-btn.show+.age-note-wrapper {
+    width: 360px;
+}
+
+
+
+
+
+
+
+
+
+/* Note Area */
+
+
+
+.note-wrapper {
+    margin: 0 auto;
+    position: relative;
+    opacity: 0;
+    outline: none;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease, height 0.5s ease;
+
+}
+
+.note-wrapper.active {
+    opacity: 1;
+    width: 240px;
+    height: 300px;
+    overflow: auto;
+    top: 0;
+    resize: none;
+    border: 5px solid #006400;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F1E6D8;
+    color: black;
+   
+   
+
+
+}
+
+
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.text {
+    position: relative;
+    opacity: 0;
+    outline: none;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.text.active {
+    opacity: 1;
+    width: 240px;
+    height: 300px;
+    top: 0;
+    resize: none;
+    border: 5px solid #FF9800;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.note-btn {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: opacity 0.5s ease, width 0.5s ease, height 0.5s ease;
+    background-color: #FF9800;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text.active~.note-btn {
+    opacity: 1;
+    width: 90px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.user-item {
+    display: flex;
+    height: 100px;
+
+}
+
+.user {
+
+    border: 2px solid white;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    background-color: #FF9800;
+    color: black;
+    border-radius: 5px;
+}
+
+.user:hover {
+    background-color:  #b68e17;
+    
+}
+
+/* Footer  */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-con {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #FF9800;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+

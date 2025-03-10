@@ -1,0 +1,85 @@
+{
+    "users": [
+        {
+            "id": 10,
+            "name": "Hus Hus",
+            "age": 32,
+            "section": "Teknoloji",
+            "job": "Mühendis",
+            "email": "ada@ad.da",
+            "password": "123456"
+        },
+        {
+            "id": 11,
+            "name": "Murat Tunç",
+            "age": 32,
+            "section": "Eğitim",
+            "job": "Öğretmen",
+            "email": "ouwehfwueh@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": 12,
+            "name": "Burak Yıldız",
+            "age": 21,
+            "section": "Teknoloji",
+            "job": "yazılımcı",
+            "email": "uhaeufıgı@gmail.com",
+            "password": "23523"
+        },
+        {
+            "id": 13,
+            "name": "Kaan Çelik",
+            "age": 33,
+            "section": "Eğitim",
+            "job": "Rehber",
+            "email": "kjeahwef@soeıjf",
+            "password": "23452352"
+        },
+        {
+            "id": 14,
+            "name": "Kenan Aydın",
+            "age": 49,
+            "section": "Sanat",
+            "job": "şair",
+            "email": "hsudghuwrw@gmail.com",
+            "password": "321451235"
+        },
+        {
+            "id": 15,
+            "name": "Eda Aslan",
+            "age": 27,
+            "section": "Sağlık",
+            "job": "Tıbbi Sekreter",
+            "email": "khsdbfka@gmail.com",
+            "password": "23757283"
+        },
+        {
+            "id": 16,
+            "name": "Ece Özkan",
+            "age": 40,
+            "section": "Ekonomi",
+            "job": "Girişimci",
+            "email": "aefevsaegf@gmail.com",
+            "password": "873648372"
+        },
+        {
+            "id": 17,
+            "name": "Sevda Polat",
+            "age": 29,
+            "section": "Akademi",
+            "job": "Yazar",
+            "email": "luahefıue@gmail.com",
+            "password": "982340192"
+        },
+        {
+            "id": 18,
+            "name": "Ayaz Koç",
+            "age": 25,
+            "section": "Siyaset",
+            "job": "Diplomat",
+            "email": "uagfuwye@gmail.com",
+            "password": "872459729"
+        }
+    ]
+}

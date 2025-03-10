@@ -1,0 +1,76 @@
+{
+    "list": [
+        {
+            "id": 12,
+            "userId": 10,
+            "age": 19,
+            "note": "Lise hayatına ilk adımlarımı attım ve geleceğim için hayaller kurmaya başladım. "
+        },
+        {
+            "id": 1,
+            "userId": 11,
+            "age": 23,
+            "note": "Üniversiteye başlamak, hayatta yeni bir dönemin kapılarını araladı"
+        },
+        {
+            "id": 11,
+            "userId": 11,
+            "age": 27,
+            "note": "Kendi ayaklarım üzerinde durmayı öğreniyorum ve özgürlüğün tadını çıkarıyorum."
+        },
+        {
+            "id": 2,
+            "userId": 12,
+            "age": 18,
+            "note": "Kariyerimde ilk adımları attım ve yeni sorumluluklar üstlendim."
+        },
+        {
+            "id": 3,
+            "userId": 13,
+            "age": 21,
+            "note": "Kendimi keşfetmeye başladığım ve hayatın gerçekleriyle tanıştığım bir dönem."
+        },
+        {
+            "id": 4,
+            "userId": 14,
+            "age": 25,
+            "note": "Hayatın getirdiği zorluklara rağmen, ailemle birlikte mutluluğu buldum."
+        },
+        {
+            "id": 5,
+            "userId": 15,
+            "age": 27,
+            "note": "Tecrübelerimle daha da olgunlaştım ve yeni hedefler belirledim"
+        },
+        {
+            "id": 6,
+            "userId": 16,
+            "age": 30,
+            "note": "Hayatta her şeyin bir zamanı olduğunu öğrendim ve anın tadını çıkarmaya başladım."
+        },
+        {
+            "id": 7,
+            "userId": 17,
+            "age": 23,
+            "note": "Kariyerimde önemli bir dönüm noktası yaşadım ve başarının tadını çıkardım"
+        },
+        {
+            "id": 8,
+            "userId": 18,
+            "age": 19,
+            "note": "Hayatın güzelliklerini sevdiklerimle paylaşmanın değerini anladım"
+        },
+        {
+            "id": 9,
+            "userId": 17,
+            "age": 29,
+            "note": "Yeni yerler keşfetmek ve farklı kültürlerle tanışmak beni heyecanlandırıyor"
+        },
+        {
+            "id": 10,
+            "userId": 15,
+            "age": 40,
+            "note": "Hayallerime ulaşmak için daha çok çalışmaya ve kendimi geliştirmeye kararlıyım"
+        }
+    ]
+}

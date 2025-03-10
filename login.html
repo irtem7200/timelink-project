@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timelink - Kayıt Ekranı</title>
+    <link rel="stylesheet" href="/styles2.css">
+</head>
+
+<body>
+
+    <div class="background-blur"></div>
+
+    <div id="loginForm">
+        <form id="login-form">
+            <input type="email" id="mail" placeholder="E-Mail" required>
+            <span class="form-error" id="emailError"></span>
+            <input type="password" id="password" minlength="6" maxlength="6" placeholder="Şifre" required>
+            <span class="form-error" id="passwordError"></span>
+            <span class="form-success" id="formSuccess"></span>
+
+            <button type="button" onclick="login()">Giriş yap</button>
+
+            <a href="#" onclick="showSignUp()"
+                style="text-decoration: none; color: white; display: block; margin-top: 10px; ">hesap oluştur</a>
+        </form>
+        <div id="userProfile"></div>
+    </div>
+
+
+
+    <div id="signupForm">
+        
+        <form id="sign-form">
+            <input type="text" id="nameSignup" placeholder="İsim Soyisim" minlength="5" required>
+            <input type="number" id="ageSignup" placeholder="Yaş" minlength="2" maxlength="3" required>
+            <input type="text" id="jobSignup" placeholder="Meslek" minlength="3" required>
+            <select type="text" id="sectionSignup" placeholder="Bölüm" required>
+                <option value="" selected>Kategori seç</option>
+                <option value="Akademi">Akademi</option>
+                <option value="Sağlık">Sağlık</option>
+                <option value="Eğitim">Eğitim</option>
+                <option value="Teknoloji">Teknoloji</option>
+                <option value="Sanat">Sanat</option>
+                <option value="Ekonomi">Ekonomi</option>
+                <option value="Siyaset">Siyaset</option>
+            </select>
+            <input type="password" id="passwordSignup" minlength="6" maxlength="6" placeholder="Şifre" required>
+            <input type="email" id="emailSignup" placeholder="E-Mail" minlength="9" required>
+            <span class="form-error" id="signupError"></span>
+            <span class="form-success" id="signupSuccess"></span>
+            <button type="button" id="save" onclick="signUp()">Kayıt ol</button>
+            <a href="#" onclick="showLogin()"
+                style="text-decoration: none; display: block; color: white; margin-top: 10px;">zaten hesabın mı var</a>
+        </form>
+        <div id="userProfile"></div>
+    </div>
+
+
+
+    <script src="scriptLogin.js"></script>
+
+</body>
+
+</html>

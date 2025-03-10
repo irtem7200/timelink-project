@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timelink</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="checkStatus()">
+    <div class="mainDiv">
+        <header>
+            <div class="head-btn">
+            <div class="head">
+                <h1 onclick="location.reload()"><img src="images/LOGO.jpg" alt="">TIMELINK</h1>
+                <a onclick="toggleAction()">
+                    <i id="userIcon" class="fa-solid fa-user"></i>
+                    <span id="userTitle" title="Çıkış Yap"></span>
+                </a>
+            </div>
+            <div class="buton">
+                <nav class="buttons">
+                    <ul>
+                        <li><button onclick="showUsers('Akademi')">Akademi</button></li>
+                        <li><button onclick="showUsers('Sağlık')">Sağlık</button></li>
+                        <li><button onclick="showUsers('Eğitim')">Eğitim </i></button></li>
+                        <li><button onclick="showUsers('Teknoloji')">Teknoloji</button></li>
+                        <li><button onclick="showUsers('Sanat')">Sanat</button></li>
+                        <li><button onclick="showUsers('Ekonomi')">Ekonomi</button></li>
+                        <li><button onclick="showUsers('Siyaset')">Siyaset</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+            <div id="results" class="user-item"></div>
+        </header>
+
+
+        <div id="mainArrow" class="main-arrow">
+            <div class="age-block" id="ageBlock"></div>
+        </div>
+
+        <div class="note-wrapper" id="activeNote"></div>
+        <div class="page-info" id="pageInfo"></div>
+        <div class="note">
+            <textarea id="notTextArea" name="texts" class="text"
+                placeholder="Anı,tecrübe,öneri,yaptığın şeyler..."></textarea>
+            <span id="noteInfo"></span>
+            <button class="note-btn" onclick="saveNote()">Kaydet</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-con">
+            <div class="footer-section">
+                <h3>TimeLink</h3>
+                <p>Hayatın, deneyimlerin ve başarıların paylaşılmaya değer.</p>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <a href="mailto:bayramirtem9@gmail.com">bayramirtem9@gmail.com</a>
+
+            </div>
+            <div class="footer-section">
+                <h3>Sosyal medya</h3>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footer-section">
+                <h3>Şikayet/Öneri</h3>
+                
+                    
+                    <a href="mailto:bayramirtem9@gmail.com">Şikayet veya öneri için tıklayabilirsiniz.</a>
+    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Timelink. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
